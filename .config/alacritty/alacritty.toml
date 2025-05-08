@@ -1,0 +1,23 @@
+[general]
+import = [
+      "~/.config/alacritty/themes/catppuccin-mocha.toml"
+]
+[env]
+TERM = "xterm-256color"
+
+[window]
+padding.x = 10
+padding.y = 10
+dimensions.columns = 110
+dimensions.lines = 35
+
+decorations = "Buttonless"
+
+opacity = 1.00
+blur = true
+
+option_as_alt = "Both"
+
+[font]
+normal.family = "MesloLGS NF"
+size = 15
