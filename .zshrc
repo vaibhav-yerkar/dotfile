@@ -12,7 +12,7 @@ export PATH="/opt/homebrew/opt/python@3.12/bin:$PATH"
 
 # llvm(clang)-homebrew compiler path
 export PATH="/opt/homebrew/opt/llvm/bin:$PATH"
-alias clang++="clang++ -std=c++20 -pedantic-errors" 
+alias clang++="clang++ -std=c++17 -pedantic-errors" 
 
 # bun completions
 [ -s "/Users/vaibhavyerkar/.bun/_bun" ] && source "/Users/vaibhavyerkar/.bun/_bun"
